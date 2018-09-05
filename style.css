@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+heder {
+    height:700px;
+    background-color: blue;
+}
+.navbar {
+    color: #FFFFFF;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 56px;
+}
+
+nav ul {
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    
+}
+
+/* .navbar a {
+    display: block;
+    float: left;
+} */
