@@ -4,6 +4,15 @@ body, html {
     /* box-sizing: border-box; */
 }
 
+.heading h1 {
+  font-size: 36px;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
 header {
     height:700px;
     background-image: url(Path1.png);
@@ -54,3 +63,60 @@ nav ul li a {
   /* position: absolute; */
 
 }
+
+.center-text {
+  top: 289px;
+  /* left: 363px; */
+  max-width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.center-text h1 {
+    font-size: 72px;
+}
+
+.center-text p {
+    font-size: 24px;
+}
+
+.center-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.about {
+  max-height: 686px;
+}
+
+.inner-row {
+  padding-top: 60px;
+  max-width: 1147px;
+      margin: 45px auto 0;
+      display: flex;
+}
+
+
+
+.col-left, .col-right {
+  /* width: 50%; */
+  /* float: left; */
+  display: flex;
+  flex-direction: column;
+}
+
+.col-right {
+  left: 50%;
+  position: absolute;
+} */
