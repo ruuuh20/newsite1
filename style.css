@@ -337,14 +337,71 @@ form {
 .form-group input, .form-group textarea  {
     padding: 20px;
     margin: 2em 2em;
-    width: 90%;
+    width: 100%;
 }
 
 .form-group textarea {height: 208px;
-width: 90%;
+width: 100%;
 }
 
 input[type="submit"]
  {
     margin: 2em;
+}
+
+.col {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+
+    background-color: #fff;
+    width: 60%;
+    margin: auto;
+    max-width: 1000px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 67px 30px 90px;
+}
+
+.communication-channels-container[_ngcontent-c23] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+.communication-channel[_ngcontent-c23] {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.communication-channel[_ngcontent-c23] .title[_ngcontent-c23] {
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
