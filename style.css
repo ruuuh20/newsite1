@@ -58,6 +58,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
+  color: #000;
 }
 
 /* .navbar a {
@@ -246,7 +247,7 @@ nav ul li a {
 .card .card-summary {
   padding: 5% 5% 3% 5%;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 300;
 }
 .card .card-header {
   position: relative;
@@ -340,8 +341,9 @@ form {
     width: 100%;
 }
 
-.form-group textarea {height: 208px;
-width: 100%;
+.form-group textarea {
+  height: 208px;
+  width: 100%;
 }
 
 input[type="submit"]
@@ -371,7 +373,7 @@ input[type="submit"]
     padding: 67px 30px 90px;
 }
 
-.communication-channels-container[_ngcontent-c23] {
+.contact-infos-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -381,7 +383,7 @@ input[type="submit"]
     -ms-flex-line-pack: center;
     align-content: center;
 }
-.communication-channel[_ngcontent-c23] {
+.contact-info {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -400,8 +402,51 @@ input[type="submit"]
     flex-direction: column;
 }
 
-.communication-channel[_ngcontent-c23] .title[_ngcontent-c23] {
-    font-size: 18px;
-    padding-top: 30px;
-    padding-bottom: 10px;
+
+
+.contact-info .text {
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 8px;
+}
+
+img.contact-icon {
+  width: 10%;
+  padding-bottom: 18px;
+}
+
+/* button */
+
+.text-center {
+  text-align: center;
+}
+
+.btn1 {
+  color: #303F9F;
+
+background: transparent;
+border: 2px solid #303F9F;
+border-radius: 6px;
+border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+.btn1 {
+      background-color: white;
+      color: black;
+      border: 2px solid #303F9F;
+}
+
+.btn1:hover {
+     background-color: #303F9F;
+     color: white;
 }
